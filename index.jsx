@@ -1,7 +1,8 @@
 var React = require('react');
+var Itinerator = require('./js/App');
 
 var app = React.render(
-  <div> Hey! </div>,
+  <Itinerator/>,
   document.getElementById('itinerator')
 );
 
