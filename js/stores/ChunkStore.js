@@ -36,11 +36,6 @@ var store = {
   }
 };
 
-console.log('Stoor');
-console.log(store);
-
-console.log(typeof store);
-
 MicroEvent.mixin(store);
 
 module.exports = store;
